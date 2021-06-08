@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boootstrap Website</title>
     
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -19,6 +19,8 @@
             </div>
         </div>
     </div>
+
+
     <!-- End top bar -->
     <!-- navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -39,9 +41,11 @@
             </div>
         </div>
     </nav>
+
+
     <!-- image carousel -->
     <div id="carousel" class="carousel slide" data-ride="carousel" 
-    data-interval="2000">
+    data-interval="65000">
         <!-- carousel content -->
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -93,6 +97,8 @@
                 </div>
             </div>
         </div>
+
+
         <!-- previous & next buttons -->
         <a href="#carousel" class="carousel-control-prev" role="button" 
         data-slide="prev">
@@ -103,9 +109,141 @@
         data-slide="next">
             <span class="fas fa-chevron-right fa-2x"></span>
         </a>
-       
     </div>
 
+
+    <!-- main page heading -->
+    <div class="col-12 text-center mt-5">
+        <h1 class="text-dark pt-4">Build with Ease</h1>
+        <div class="border-top border-primary w-25 mx-auto my-3"></div>
+        <p class="lead">For all of the chapions in this world</p>
+    </div>
+
+
+    <!-- Three column section -->
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-md-4 my-4">
+                <img src="assets/img3.jpg" class="w-100">
+                <h4 class="my-4">Amazing, Incredble</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat cum totam molestias officia corrupti repudiandae ea. Repellat voluptas libero beatae.</p>
+                <a href="#" class="btn btn-outline-dark btn-md">Our Story</a>
+            </div>
+            <div class="col-md-4 my-4">
+                <img src="assets/dog.jpg" class="w-100">
+                <h4 class="my-4">Amazing, Incredble</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat cum totam molestias officia corrupti repudiandae ea. Repellat voluptas libero beatae.</p>
+                <a href="#" class="btn btn-outline-dark btn-md">Our Story</a>
+            </div>
+            <div class="col-md-4 my-4">
+                <img src="assets/img2.jpg" class="w-100">
+                <h4 class="my-4">Amazing, Incredble</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat cum totam molestias officia corrupti repudiandae ea. Repellat voluptas libero beatae.</p>
+                <a href="#" class="btn btn-outline-dark btn-md">Our Story</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Emoji navbar first -->
+    <a class="navbar bg-primary sticky-top emoji" href="#emoji" 
+    role="button" data-toggle="collapse"></a>
+
+    <!-- start fixed background IMG -->
+    <div class="fixed-background">
+
+        <div class="row text-light py-5">
+            <div class="col-12 text-center">
+                <h1 class="text-dark">Advance to the Next Level</h1>
+                <h3 class="py-4 text-dark">..See What's on the other side.</h3>
+                
+                <button type="button" data-toggle="modal" data-target="#modal1" class="btn btn-primary btn-lg mr-2">Blue Pill</button>
+                <button type="button" data-toggle="modal" data-target="#modal1" class="btn btn-danger btn-lg ml-2">Red Pill</button>
+            </div>
+        </div>
+        <div class="fixed-wrap">
+            <div class="fixed"></div>
+        </div>
+      
+      
+    </div>
+
+    <!-- Emoji navbar second -->
+    <a class="navbar bg-primary sticky-top emoji" href="#emoji" 
+    role="button" data-toggle="collapse"><i class="fas fa-plug"></i></a>
+
+    <div class="collapse" id="emoji">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3"><img src="assets/tenor.png" class="w-100"></div>
+                <div class="col-sm-6 col-md-3"><img src="assets/tenor (2).png" class="w-100"></div>
+                <div class="col-sm-6 col-md-3"><img src="assets/chic.gif" class="w-100"></div>
+                <div class="col-sm-6 col-md-3"><img src="assets/image3.png" class="w-100"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal popup -->
+    <div class="modal fade" id="modal1">
+        <div class="modal-dialog">
+            <img src="assets/tenor (3).gif" class="w-100">
+        </div>
+    </div>
+
+    <!-- start two column section -->
+    <div class="container my-5">
+        <div class="row py-4">
+            <div class="col-lg-4 mb-4 my-lg-auto">
+                <h1 class="text-dark font-weight-bold mb-3">We've been Expecting You</h1>
+                <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum nostrum incidunt labore expedita deserunt? Animi voluptate doloribus eligendi. Excepturi in dolor iure sequi, vero neque ducimus numquam nihil labore cumque!</p>
+                <a href="https//w3newbie.com/themes" target="_blank" 
+                class="btn btn-outline-dark btn-lg">THE AGENCY THEME</a>
+            </div>
+
+            <div class="col-lg-8">
+                <img src="assets/Untitled-1.png" class="w-100">
+            </div>
+        </div>
+    </div>
+
+    <!-- jumbotron -->
+    <div class="jumbotron py-5 mb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-lg-8 col-xl-9 my-auto">
+                    <h4>Looking for quality webdevelopment and design services?</h4>
+                </div>
+
+                <div class="col-md-5 col-lg-4 col-xl-3 pt-4 pt-md-0">
+                    <a href="#" class="btn btn-primary btn-lg">Contact Us Today</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row text-light text-center py-4 justify-content-center">
+                <div class="col-sm-10 col-md-8 col-lg-6">
+                    <img src="assets/gh.png">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque recusandae iure accusantium, dicta consectetur architecto autem perspiciatis rerum obcaecati cumque!</p>
+                    <ul class="social pt-3">
+                        <li><a href="#https//www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#https//www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#https//www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#https//www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- start socket -->
+    <div class="socket text-light text-center py-3">
+        <p>&copy; <a href="https//w3newbie.com" target="_blank">@balwin.com</a></p>
+    </div>
+    <!-- end socket -->
+    
     
        
 
